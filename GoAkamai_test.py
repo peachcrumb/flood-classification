@@ -1,3 +1,10 @@
+#####################################################################################################
+# Script to save a snapshot from available GoAkamai (http://www.goakamai.org/) traffic cameras on Oahu, HI.
+# Last Modified:    1/29/2025 Kayla Yamamoto
+#                   4/26/2026  Phoebe Chang
+#
+#####################################################################################################
+
 import ultralytics
 from ultralytics import YOLO
 import os, urllib, shutil, glob, requests, datetime
